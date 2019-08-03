@@ -1,0 +1,132 @@
+@charset "UTF-8";
+.w-80p {
+  width: 80%;
+}
+
+.card {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+ul.square li {
+  list-style-type: none;
+  margin-bottom: 12px;
+  margin-left: 10px;
+  position: relative;
+}
+ul.square li:last-child {
+  margin-bottom: 0;
+}
+ul.square li:before {
+  content: "\25A0";
+  font-family: "fontello";
+  display: inline;
+  font-size: 43px;
+  line-height: 0;
+  color: #3AA369;
+  position: absolute;
+  top: 13px;
+  left: -34px;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.btn-green-light {
+  background: #3AA369;
+}
+
+.primary-nav .nav-link {
+  text-transform: uppercase;
+  padding-bottom: 0.2rem;
+  font-size: 0.8rem;
+}
+.primary-nav .nav-item {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+.primary-nav .nav-item.active .nav-link, .primary-nav .nav-item:hover .nav-link {
+  border-bottom: 2px solid #49AA73;
+}
+
+.pt38 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+h2.heading {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.section {
+  padding-left: 50px;
+  padding-right: 50px;
+  background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url("../../images/background.png");
+}
+
+.section-content {
+  position: relative;
+  z-index: 10;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1030;
+}
+footer .icons {
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.8);
+}
+footer .icons .icon {
+  margin: 0 8px;
+  transform: scale(0.8);
+}
+
+.sl1 {
+  width: 50%;
+}
+.sl1 .back-image {
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+  width: 420px;
+}
+
+.sl2 {
+  padding-left: 30px;
+  width: 80%;
+}
+.sl2 .back-image {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 490px;
+}
+.sl2 .card-body {
+  padding: 0.75rem 1.25rem;
+}
+
+.sl3 .back-image {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateX(-50%);
+}
+.sl3 .card-body {
+  padding: 0.75rem 1.25rem;
+}
+
+.sl4 .back-image {
+  position: absolute;
+  bottom: 100%;
+  right: -20px;
+  width: 500px;
+}
