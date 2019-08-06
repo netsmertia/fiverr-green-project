@@ -8,11 +8,73 @@
   font-size: 18px;
   font-weight: 300;
 }
+.card .card-body {
+  padding: 1.5rem 2.5rem;
+}
 
+.card.compact .card-body {
+  padding: 1rem;
+}
+
+.text-medium {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.pt40 {
+  font-size: 1.6rem;
+  line-height: 2.24rem;
+}
+
+.pt38 {
+  font-size: 1.52rem;
+  line-height: 2.1rem;
+}
+
+.pt35 {
+  font-size: 1.4rem;
+  line-height: 1.87rem;
+}
+
+.pt30 {
+  font-size: 1.2rem;
+  line-height: 1.68rem;
+}
+
+.pt28 {
+  font-size: 1.12rem;
+  line-height: 1.568rem;
+}
+
+.pt25 {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+h2.heading {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.text-green-light {
+  color: #3AA369;
+}
+
+ul.square {
+  padding-left: 0;
+}
 ul.square li {
   list-style-type: none;
   margin-bottom: 12px;
-  margin-left: 10px;
+  margin-left: 34px;
   position: relative;
 }
 ul.square li:last-child {
@@ -28,6 +90,48 @@ ul.square li:before {
   position: absolute;
   top: 13px;
   left: -34px;
+}
+
+dl.square {
+  padding-left: 30px;
+}
+dl.square dt {
+  list-style-type: none;
+  margin-bottom: 12px;
+  margin-left: 34px;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+}
+dl.square dt:last-child {
+  margin-bottom: 0;
+}
+dl.square dt:before {
+  content: "\25A0";
+  font-family: "fontello";
+  display: inline;
+  font-size: 43px;
+  line-height: 0;
+  color: #3AA369;
+  position: absolute;
+  top: 13px;
+  left: -34px;
+  font-style: normal;
+}
+dl.square dd {
+  padding-left: 34px;
+  font-size: 0.88rem;
+  line-height: 1.232rem;
+  font-weight: 300;
+}
+dl.square dd strong {
+  font-size: 0.92rem;
+  font-weight: bold;
+}
+dl.square dd.bold {
+  font-weight: 500;
 }
 
 .h-100vh {
@@ -51,20 +155,8 @@ ul.square li:before {
   border-bottom: 2px solid #49AA73;
 }
 
-.pt38 {
-  font-size: 1.4rem;
-  font-weight: 300;
-  line-height: 40px;
-}
-
-h2.heading {
-  font-size: 2.4rem;
-  font-weight: bold;
-}
-
 .section {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 150px 50px 0 50px;
   background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url("../../images/background.png");
 }
 
@@ -129,4 +221,88 @@ footer .icons .icon {
   bottom: 100%;
   right: -20px;
   width: 500px;
+}
+
+.vs1 {
+  width: 60%;
+}
+.vs1 .section-content {
+  position: inherit;
+}
+.vs1 .vol-mobile1 {
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 19%;
+}
+.vs1 .back-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 670px;
+}
+
+.vs2 .icon-bullet {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.vs2 .icon-bullet .icon {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background: #29754A;
+  flex: 0 0 50px;
+  display: flex;
+}
+.vs2 .icon-bullet p {
+  color: #6f6f6f;
+  font-weight: bold;
+  font-size: 0.96rem;
+  line-height: 1.344rem;
+  margin-bottom: 0;
+  padding-left: 1rem;
+}
+
+.vs3 .back-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 450px;
+}
+.vs3 .card {
+  position: relative;
+}
+.vs3 .card .card-body {
+  padding-left: 20px;
+}
+.vs3 .dot-line {
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background: #29754A;
+  top: 50%;
+  right: 100%;
+  transform-origin: right top;
+}
+.vs3 .dot-line__one {
+  transform: rotateZ(-15deg);
+}
+.vs3 .dot-line__three {
+  transform: rotateZ(15deg);
+}
+.vs3 .dot-line:after {
+  content: "\25CF";
+  font-size: 16px;
+  position: absolute;
+  right: -8px;
+  top: -10px;
+}
+
+.vs4 .back-image {
+  position: absolute;
+  right: 50px;
+  bottom: -80px;
+  width: 270px;
 }

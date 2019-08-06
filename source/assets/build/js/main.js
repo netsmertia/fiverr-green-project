@@ -17804,6 +17804,37 @@ try {
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 } catch (e) {}
 
+$(document).ready(function () {
+  $('#pagepiling').pagepiling({
+    menu: null,
+    direction: 'vertical',
+    verticalCentered: false,
+    sectionsColor: [],
+    anchors: [],
+    scrollingSpeed: 300,
+    easing: 'linear',
+    loopBottom: false,
+    loopTop: false,
+    css3: true,
+    navigation: {
+      'textColor': '#000',
+      'bulletsColor': '#000',
+      'position': 'right',
+      'tooltips': ['section1', 'section2', 'section3', 'section4']
+    },
+    normalScrollElements: null,
+    normalScrollElementTouchThreshold: 5,
+    touchSensitivity: 5,
+    keyboardScrolling: true,
+    sectionSelector: '.section',
+    animateAnchor: false,
+    //events
+    onLeave: function onLeave(index, nextIndex, direction) {},
+    afterLoad: function afterLoad(anchorLink, index) {},
+    afterRender: function afterRender() {}
+  });
+});
+
 /***/ }),
 
 /***/ "./source/_assets/sass/main.scss":

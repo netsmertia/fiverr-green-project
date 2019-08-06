@@ -10,27 +10,130 @@
     box-shadow: 0 0 6px rgba(0, 0, 0, .16);
     font-size: 18px;
     font-weight: 300;
+    .card-body {
+        padding: 1.5rem 2.5rem;
+    }
+}
+.card.compact {
+    .card-body {
+        padding: 1rem;
+    }
 }
 
+// typegraphy
+.text-medium {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.pt40 {
+    font-size: (40/$font-base) + rem;
+    line-height: (40 * $lineheight-base) + rem;
+}
+.pt38 {
+    font-size: 1.52rem;
+    line-height: 2.1rem;
+}
+
+.pt35 {
+    font-size: 1.4rem;
+    line-height: 1.87rem;
+}
+
+.pt30 {
+    font-size: (30/$font-base) + rem;
+    line-height: (30 * $lineheight-base) + rem;
+}
+
+.pt28 {
+    font-size: (28/$font-base) + rem;
+    line-height: (28 * $lineheight-base) + rem;
+}
+.pt25 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+h2.heading {
+    font-size: 2.4rem; //38px
+    font-weight: bold;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.fw-light {
+    font-weight: 300;
+}
+
+.text-green-light {
+    color: $green-light;
+}
 //others
-ul.square li {
-    list-style-type: none;
-    margin-bottom: 12px;
-    margin-left: 10px;
-    position: relative;
-    &:last-child {
-        margin-bottom: 0;
+ul.square {
+    padding-left: 0;
+    li {
+        list-style-type: none;
+        margin-bottom: 12px;
+        margin-left: 34px;
+        position: relative;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:before {
+            content: "\25A0";
+            font-family: "fontello";
+            display: inline;
+            font-size: 43px;
+            line-height: 0;
+            color: #3AA369;
+            position: absolute;
+            top: 13px;
+            left: -34px;
+        }
     }
-    &:before {
-        content: "\25A0";
-        font-family: "fontello";
-        display: inline;
-        font-size: 43px;
-        line-height: 0;
-        color: #3AA369;
-        position: absolute;
-        top: 13px;
-        left: -34px;
+}
+
+dl.square {
+    padding-left: 30px;
+    dt {
+        list-style-type: none;
+        margin-bottom: 12px;
+        margin-left: 34px;
+        position: relative;
+        font-size: ((23+2)/$font-base) + rem;
+        line-height: ((23+2) * $lineheight-base) + rem;
+        font-weight: 300;
+        font-style: italic;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &:before {
+            content: "\25A0";
+            font-family: "fontello";
+            display: inline;
+            font-size: 43px;
+            line-height: 0;
+            color: #3AA369;
+            position: absolute;
+            top: 13px;
+            left: -34px;
+            font-style: normal;
+        }
+    }
+    dd {
+        padding-left: 34px;
+        font-size: ((20+2)/$font-base) + rem;
+        line-height: ((20+2) * $lineheight-base) + rem;
+        font-weight: 300;
+        strong {
+            font-size: ((20+3)/$font-base) + rem;
+            font-weight: bold;
+        }
+        &.bold {
+            font-weight: 500;
+        }
     }
 }
 
@@ -61,20 +164,9 @@ body {
     }
 }
 
-.pt38 {
-    font-size: 1.4rem;
-    font-weight: 300;
-    line-height: 40px;
-}
-
-h2.heading {
-    font-size: 2.4rem;
-    font-weight: bold;
-}
 
 .section {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 150px 50px 0 50px; 
     background:
         linear-gradient(
             rgba(255, 255, 255, .92),
@@ -147,5 +239,97 @@ footer {
         bottom: 100%;
         right: -20px;
         width: 500px;
+    }
+}
+
+//volunteer
+.vs1 {
+    width: 60%;
+    .section-content {
+        position: inherit;
+    }
+    .vol-mobile1 {
+        width: 250px;
+        position: absolute;
+        bottom: 0;
+        left: 19%;
+    }
+    .back-image {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 670px;
+    }
+}
+
+.vs2 {
+    .icon-bullet {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+        .icon {
+            width: 50px;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            background: $green;
+            flex: 0 0 50px;
+            display: flex;
+        }
+        p {
+            color: $gray;
+            font-weight: bold;
+            font-size: (24/$font-base) + rem;
+            line-height: (24 * $lineheight-base) + rem;
+            margin-bottom: 0;
+            padding-left: 1rem;
+        }
+    }
+}
+.vs3 {
+    .back-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 450px;
+    }
+    .card {
+        position: relative;
+        .card-body {
+            padding-left: 20px;
+        }
+    }
+    .dot-line {
+        position: absolute;
+        width: 200px;
+        height: 2px;
+        background: $green;
+        top: 50%;
+        right: 100%;
+        transform-origin: right top;  
+        &__one {
+            transform: rotateZ(-15deg);
+        }
+        &__two {
+            // transform: rotateZ(-15deg);
+        }
+        &__three {
+            transform: rotateZ(15deg);
+        }
+        &:after {
+            content: '\25CF';
+            font-size: 16px;
+            position: absolute;
+            right: -8px;
+            top: -10px; 
+        }
+    }
+}
+.vs4 {
+    .back-image {
+        position: absolute;
+        right: 50px;
+        bottom: -80px;
+        width: 270px;
     }
 }

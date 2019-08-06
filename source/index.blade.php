@@ -5,9 +5,9 @@
 <div class="container-fluids" id="pagepiling">
     <section class="section">
         <div class="page-section sl1">
-            <div class="section-content pt-5">
+            <div class="section-content pt-3">
                 <h2 class="heading"> Se el cambio que tu comunidad necesita </h2>
-                <p class="pt38">
+                <p class="pt38 fw-light">
                     Conéctate con organizaciones sin fines de lucro
                     o con voluntarios para causas inspiradoras.
                 </p>
@@ -35,7 +35,7 @@
     </section>
     <section class="section">
         <div class="page-section sl2">
-            <div class="section-content pt-5">
+            <div class="section-content pt-3">
                 <h2 class="heading">Las ventajas para un voluntario</h2>
                 <div class="col-5 px-0 mt-5">
                     <div class="card mb-3">
@@ -88,7 +88,7 @@
     </section>
     <section class="section">
         <div class="page-section sl4">
-            <div class="section-content pt-5 px-5">
+            <div class="section-content pt-3 px-5">
                 <h2 class="heading mb-5">Las ventajas para un
                     <br>“Supporter”</h2>
                 <div class="col-12 px-0 position-relative">
@@ -114,35 +114,4 @@
 
 
 @section('script')
-$(document).ready(function(){
-$('#pagepiling').pagepiling({
-menu: null,
-direction: 'vertical',
-verticalCentered: true,
-sectionsColor: [],
-anchors: [],
-scrollingSpeed: 300,
-easing: 'linear',
-loopBottom: false,
-loopTop: false,
-css3: true,
-navigation: {
-'textColor': '#000',
-'bulletsColor': '#000',
-'position': 'right',
-'tooltips': ['section1', 'section2', 'section3', 'section4']
-},
-normalScrollElements: null,
-normalScrollElementTouchThreshold: 5,
-touchSensitivity: 5,
-keyboardScrolling: true,
-sectionSelector: '.section',
-animateAnchor: false,
-
-//events
-onLeave: function (index, nextIndex, direction) { },
-afterLoad: function (anchorLink, index) { },
-afterRender: function () { },
-});
-});
 @endsection

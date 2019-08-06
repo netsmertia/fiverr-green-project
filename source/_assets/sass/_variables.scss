@@ -3,8 +3,10 @@ $green-light: #3AA369;
 $green-lighter: #49AA73;
 
 $gray-600: #6f6f6f !default;
+$gray: #6f6f6f !default;
 
-
+$font-base : 25;
+$lineheight-base : 1.4 / $font-base;
 $primary: $green;
 
 $body-color: $green;
