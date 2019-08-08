@@ -195,9 +195,39 @@
                             <dd class="fw-light"><strong>El propósito principal:</strong> Verificar los posibles participantes antes de registrarse y asistir al evento.</dd>
                         </dl>
                     </div>
+                    <div class="col-md-6">
+                        <dl class="square">
+                            <dt>Cuando un Supporter es asignado a un evento (como coordinador o líder):</dt>
+                            <dd>Las secciones de Sobre Mí (“About Me”), Impacto Comunitario, Reputación General y Reputación por Categorías son visibles para cualquier voluntario que quiera ver el perfil del Supporter a través de un evento publicado.</dd>
+                            <dd class="fw-light"><strong>El propósito principal:</strong>Proveerle confianza al voluntario de que el evento podrá estar bien organizado o monitoreado.</dd>
+                            <dt>Cuando un voluntario envía o comparte su ficha digital (ID):</dt>
+                            <dd>Las secciones de Sobre Mí (“About Me”), Impacto Comunitario, Reputación General y Reputación por Categorías son visibles para cualquier OSFL que desee considerar a un voluntario como Supporter o Staff Volunteer y para el público en general al que se expone el ID (reclutadores, gobierno, etc.).</dd>
+                            <dd class="fw-light"><strong>El propósito principal:</strong> Validar el Impacto Comunitario en búsqueda de Empleo o similar, compartirlo en LinkedIn y ser considerado como Supporter o Staff Volunteer para un evento.</dd>
+                        </dl>
+                    </div>
+
                </div> 
             </div>
         </div>
     </section>
-</div>
+    <section class="section vs7">
+        <div class="page-section h-100">
+            <div class="section-content vs6 px-3 h-100">
+                <div class="row justify-content-center h-100">
+                    <div class="col-10 d-flex">
+                        <div class="card align-self-center" style="background: rgba(255, 255, 255, .85); margin-top: -11rem;">
+                            <div class="card-body">
+                                <ol class="pt20 mb-0 pl-0">
+                                    <li>El sistema de valoración es generado según la actividad de usuario en la aplicación y en los eventos. Más adelante se proveerá información al respecto.</li>
+                                    <li>Voluntarios pueden aceptar o solicitar para roles de responsabilidad como coordinadores de evento o como líderes de equipo. Estos dos roles son categorizados en NeedMe como Supporters.</li>
+                                    <li>Organizaciones sin fines de lucro.</li>
+                                    <li>Persona encargada de aprobar las horas comunitarias en escuelas, universidades, agencias de gobierno, entre otros.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section></div>
 @endsection

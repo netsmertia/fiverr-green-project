@@ -51,6 +51,11 @@
   line-height: 1.4rem;
 }
 
+.pt20 {
+  font-size: 0.8rem;
+  line-height: 1.12rem;
+}
+
 h2.heading {
   font-size: 2.4rem;
   font-weight: bold;
@@ -99,6 +104,7 @@ dl.square dt {
   list-style-type: none;
   margin-bottom: 12px;
   margin-left: 34px;
+  margin-top: 2rem;
   position: relative;
   font-size: 1rem;
   line-height: 1.4rem;
@@ -305,4 +311,13 @@ footer .icons .icon {
   right: 50px;
   bottom: -80px;
   width: 270px;
+}
+
+.vs7 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.vs7 .page-section {
+  background: url("../../images/vol-image4c1.jpg") no-repeat center center;
+  background-size: cover;
 }

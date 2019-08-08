@@ -53,6 +53,10 @@
     font-size: 1rem;
     line-height: 1.4rem;
 }
+.pt20 {
+    font-size: (20/$font-base) + rem;
+    line-height: (20 * $lineheight-base) + rem;
+}
 
 h2.heading {
     font-size: 2.4rem; //38px
@@ -101,6 +105,7 @@ dl.square {
         list-style-type: none;
         margin-bottom: 12px;
         margin-left: 34px;
+        margin-top: 2rem;
         position: relative;
         font-size: ((23+2)/$font-base) + rem;
         line-height: ((23+2) * $lineheight-base) + rem;
@@ -331,5 +336,13 @@ footer {
         right: 50px;
         bottom: -80px;
         width: 270px;
+    }
+}
+.vs7 {
+    padding-left: 0;
+    padding-right: 0;
+    .page-section {
+        background: url('../../images/vol-image4c1.jpg') no-repeat center center;
+        background-size: cover;
     }
 }
