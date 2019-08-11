@@ -245,8 +245,26 @@ dl.square dd.bold {
 }
 
 .section {
-  padding: 0px 50px 0 50px;
   background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url("../../images/background.png");
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  padding: 140px 50px 100px 50px;
+  position: relative;
+  min-height: inherit;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+}
+.content.spaced {
+  padding-top: 30px;
+}
+.content.spaced.extra {
+  padding-top: 70px;
 }
 
 .section-content {
@@ -272,18 +290,14 @@ footer .icons .icon {
   position: absolute;
   bottom: 0px;
   right: 100px;
-  width: 420px;
+  height: 70%;
 }
 
-.sl2 {
-  padding-left: 30px;
-  width: 80%;
-}
 .sl2 .back-image {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  width: 490px;
+  height: 70%;
 }
 .sl2 .card-body {
   padding: 0.75rem 1.25rem;
@@ -522,4 +536,43 @@ footer .icons .icon {
 .sups8 .page-section {
   background: url("../../images/sup-image8c.jpg") no-repeat bottom center;
   background-size: cover;
+}
+
+@media (max-width: 991.98px) {
+  .dim-md {
+    opacity: 0.4;
+  }
+
+  .content.spaced {
+    padding-top: 10px;
+  }
+
+  html, body {
+    overflow: auto;
+  }
+
+  .sl1 .back-image {
+    right: 0px;
+    width: 380px;
+  }
+
+  .sl4 .heading {
+    margin-bottom: 140px !important;
+    text-align: center;
+  }
+  .sl4 .back-image {
+    width: 80%;
+    left: 50%;
+    right: unset;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 767.98px) {
+  .dim-sm {
+    opacity: 0.4;
+  }
+
+  .sl4 .back-image {
+    width: 300px;
+  }
 }

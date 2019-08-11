@@ -4,10 +4,10 @@
 @include('partials._header')
 <div class="container-fluids" id="pagepiling">
     <section class="section">
-        <div class="page-section sl1 h-100">
-            <div class="section-content h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-md-7">
+        <div class="content-wrapper sl1 ">
+            <div class="content extra spaced">
+                <div class="row  align-items-center">
+                    <div class="col-sm-7">
                         <h2 class="heading"> Se el cambio que tu comunidad necesita </h2>
                         <p class="pt38 fw-light">
                             Conéctate con organizaciones sin fines de lucro
@@ -34,14 +34,14 @@
                     </div>
                 </div>
             </div>
-            <img src="assets/images/mobile1.png" alt="" class="back-image">
+            <img src="assets/images/mobile1.png" alt="" class="back-image dim-sm">
         </div>
     </section>
     <section class="section">
-        <div class="page-section sl2 h-100">
-            <div class="section-content pt-3 h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-8">
+        <div class="content-wrapper sl2 ">
+            <div class="content spaced">
+                <div class="row align-items-center">
+                    <div class="col-md-7 offset-lg-1">
                         <h2 class="heading">Las ventajas para un voluntario</h2>
                         <div class="col-10 px-0 mt-5">
                             <div class="card mb-3">
@@ -63,15 +63,15 @@
                     </div>
                 </div>
             </div>
-            <img src="assets/images/mobile2c.png" alt="" class="back-image">
+            <img src="assets/images/mobile2c.png" alt="" class="back-image dim-sm">
         </div>
     </section>
     <section class="section">
-        <div class="page-section sl3 h-100">
-            <div class="section-content h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12">
-                        <h2 class="heading text-center w-50 mx-auto">Las ventajas para una organización sin fines de lucro</h2>
+        <div class="content-wrapper sl3 ">
+            <div class="content">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-6">
+                        <h2 class="heading text-center">Las ventajas para una organización sin fines de lucro</h2>
                         <div class="row justify-content-center">
                             <div class="col-5 px-0 mt-5" style="opacity: 0;">
                                 <div class="card mb-3">
@@ -98,9 +98,9 @@
         </div>
     </section>
     <section class="section">
-        <div class="page-section sl4 h-100">
-            <div class="section-content h-100">
-                <div class="row h-100 align-items-center">
+        <div class="content-wrapper sl4 ">
+            <div class="content spaced">
+                <div class="row align-items-center">
                     <div class="col-12">
                         <h2 class="heading mb-5">Las ventajas para un
                             <br>“Supporter”</h2>

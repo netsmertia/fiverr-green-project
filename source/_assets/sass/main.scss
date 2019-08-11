@@ -32,14 +32,31 @@ body {
 
 
 .section {
-    padding: 0px 50px 0 50px; 
     background:
         linear-gradient(
             rgba(255, 255, 255, .92),
             rgba(255, 255, 255, .92),
         ), 
         url('../../images/background.png');
+    min-height: 100vh;
+    overflow: hidden;
 }
+.content-wrapper {
+    padding: 140px 50px 100px 50px; 
+    position: relative;
+    min-height: inherit;
+}
+.content {
+    position: relative;
+    z-index: 10;
+    &.spaced {
+        padding-top: 30px;
+        &.extra {
+            padding-top: 70px;
+        }
+    }
+}
+
 .section-content {
     position: relative;
     z-index: 10;
@@ -64,18 +81,16 @@ footer {
         position: absolute;
         bottom: 0px;
         right: 100px;
-        width: 420px;
+        height: 70%;
     }
 }
 
 .sl2 {
-    padding-left: 30px;
-    width: 80%;
     .back-image {
         position: absolute;
         bottom: 0px;
         right: 0px;
-        width: 490px;
+        height: 70%;
     }
     .card-body {
         padding: .75rem 1.25rem;
@@ -347,3 +362,7 @@ footer {
         background-size: cover;
     }
 }
+
+
+
+@import './media.scss';

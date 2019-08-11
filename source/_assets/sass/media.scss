@@ -2,12 +2,49 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 
-
+//small and medium
 @include media-breakpoint-down(md) { 
+    .dim-md {
+        opacity: .4;
+    }
+    .content {
+        &.spaced {
+            padding-top: 10px;
+        }
+    }
+
     html,body {
         overflow: auto;
     }
-    .section {
+    .sl1 {
+        .back-image {
+            right: 0px;
+            width: 380px;
+        }
+    }
+    .sl4 {
+        .heading {
+            margin-bottom: 140px !important;
+            text-align: center;
+        }
+        .back-image {
+            width: 80%;
+            left: 50%;
+            right: unset;
+            transform: translateX(-50%);
+        }
+    }
+}
 
+//only small
+@include media-breakpoint-down(sm) {
+
+    .dim-sm {
+        opacity: .4;
+    }
+    .sl4 {
+        .back-image {
+            width: 300px;
+        }
     }
 }
