@@ -1,155 +1,16 @@
 @import './variables';
-
-//size utilities
-.w-80p {
-    width: 80%;
-}
-
-//card
-.card {
-    box-shadow: 0 0 6px rgba(0, 0, 0, .16);
-    font-size: 18px;
-    font-weight: 300;
-    .card-body {
-        padding: 1.5rem 2.5rem;
-    }
-}
-.card.compact {
-    .card-body {
-        padding: 1rem;
-    }
-}
-
-// typegraphy
-.text-medium {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-}
-
-.pt40 {
-    font-size: (40/$font-base) + rem;
-    line-height: (40 * $lineheight-base) + rem;
-}
-.pt38 {
-    font-size: 1.52rem;
-    line-height: 2.1rem;
-}
-
-.pt35 {
-    font-size: 1.4rem;
-    line-height: 1.87rem;
-}
-
-.pt30 {
-    font-size: (30/$font-base) + rem;
-    line-height: (30 * $lineheight-base) + rem;
-}
-
-.pt28 {
-    font-size: (28/$font-base) + rem;
-    line-height: (28 * $lineheight-base) + rem;
-}
-.pt25 {
-    font-size: 1rem;
-    line-height: 1.4rem;
-}
-.pt20 {
-    font-size: (20/$font-base) + rem;
-    line-height: (20 * $lineheight-base) + rem;
-}
-
-h2.heading {
-    font-size: 2.4rem; //38px
-    font-weight: bold;
-}
-.fw-bold {
-    font-weight: bold;
-}
-.fw-light {
-    font-weight: 300;
-}
-
-.text-green-light {
-    color: $green-light;
-}
-//others
-ul.square {
-    padding-left: 0;
-    li {
-        list-style-type: none;
-        margin-bottom: 12px;
-        margin-left: 34px;
-        position: relative;
-
-        &:last-child {
-            margin-bottom: 0;
-        }
-
-        &:before {
-            content: "\25A0";
-            font-family: "fontello";
-            display: inline;
-            font-size: 43px;
-            line-height: 0;
-            color: #3AA369;
-            position: absolute;
-            top: 13px;
-            left: -34px;
-        }
-    }
-}
-
-dl.square {
-    padding-left: 30px;
-    dt {
-        list-style-type: none;
-        margin-bottom: 12px;
-        margin-left: 34px;
-        margin-top: 2rem;
-        position: relative;
-        font-size: ((23+2)/$font-base) + rem;
-        line-height: ((23+2) * $lineheight-base) + rem;
-        font-weight: 300;
-        font-style: italic;
-        &:last-child {
-            margin-bottom: 0;
-        }
-        &:before {
-            content: "\25A0";
-            font-family: "fontello";
-            display: inline;
-            font-size: 43px;
-            line-height: 0;
-            color: #3AA369;
-            position: absolute;
-            top: 13px;
-            left: -34px;
-            font-style: normal;
-        }
-    }
-    dd {
-        padding-left: 34px;
-        font-size: ((20+2)/$font-base) + rem;
-        line-height: ((20+2) * $lineheight-base) + rem;
-        font-weight: 300;
-        strong {
-            font-size: ((20+3)/$font-base) + rem;
-            font-weight: bold;
-        }
-        &.bold {
-            font-weight: 500;
-        }
-    }
-}
-
+@import './ui.scss';
 
 body {
 }
 .h-100vh {
    height: 100vh; 
 }
-.btn-green-light {
+.btn-green-light, .bg-green-light {
     background: $green-light;
+}
+.bg-green-lighter {
+    background: $green-lighter;
 }
 .primary-nav {
     .nav-link {
@@ -171,7 +32,7 @@ body {
 
 
 .section {
-    padding: 150px 50px 0 50px; 
+    padding: 0px 50px 0 50px; 
     background:
         linear-gradient(
             rgba(255, 255, 255, .92),
@@ -199,7 +60,6 @@ footer {
 }
 // landing
 .sl1 {
-    width: 50%;
     .back-image {
         position: absolute;
         bottom: 0px;
@@ -343,6 +203,147 @@ footer {
     padding-right: 0;
     .page-section {
         background: url('../../images/vol-image4c1.jpg') no-repeat center center;
+        background-size: cover;
+    }
+}
+
+.orgs1 {
+    .back-image {
+        position: absolute;
+        bottom: 0px;
+        right: 100px;
+    }
+    h2, p {
+        width: 45%;
+    }
+}
+.orgs2 {
+    .card-body {
+        font-size: (22/$font-base) + rem;
+        line-height: (22 * $lineheight-base) + rem;
+        padding: 1rem;
+    }
+}
+.orgs3 {
+    .back-image {
+        position: absolute;
+        right: 418px;
+        bottom: 100%;
+        width: 180px;
+    }
+    .back-image1 {
+        position: absolute;
+        bottom: 100%;
+        width: 180px;
+        right: 100px;
+    }
+    .green-card {
+        min-height: 80px;
+        .time h2 {
+            font-size: (20/$font-base) + rem;
+            line-height: (20 * $lineheight-base) + rem;
+            margin-bottom: 4px;
+        }
+        p {
+            font-size: (18/$font-base) + rem;
+            line-height: (18 * $lineheight-base) + rem;
+            margin-bottom: 0px;
+            strong  {
+                font-size: (20/$font-base) + rem;
+                line-height: (15 * $lineheight-base) + rem;
+            }
+        }
+    }
+}
+
+.orgs4 {
+    .back-image {
+        position: absolute;
+        bottom: 0px;
+        right: 50px;
+    }
+    h2, p {
+        width: 45%;
+    }
+}
+
+.orgs6 {
+    .back-image {
+        position: absolute;
+        bottom: 0px;
+        left: 50px;
+    }
+}
+
+.orgs7 {
+    .back-image {
+        position: absolute;
+        top: 0px;
+        right: 50px;
+    }
+    .content-box {
+        margin-top: 135px;
+        margin-left: 6%;
+    }
+}
+
+.orgs8 {
+    .back-image {
+        position: absolute;
+        right: 30px;
+        bottom: -10px;
+        width: 410px;
+    }
+}
+
+.orgs10 {
+    padding-left: 0;
+    padding-right: 0;
+    .page-section {
+        background: url('../../images/org-image15.jpg') no-repeat center center;
+        background-size: cover;
+    }
+}
+
+.sups1 {
+    .back-image {
+        width: auto;
+        height: 450px;
+    }
+}
+.sups2 {
+    .backimage {
+        padding-right: 300px;
+        background: url('../../images/sup-image2c.png') no-repeat bottom right;
+        background-size: contain;
+    }
+}
+
+.sups4 {
+    .back-image {
+        width: auto;
+        height: 520px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.sups6 {
+    .back-image {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+.sups8 {
+    padding-left: 0;
+    padding-right: 0;
+    .page-section {
+        background: url('../../images/sup-image8c.jpg') no-repeat bottom center;
         background-size: cover;
     }
 }

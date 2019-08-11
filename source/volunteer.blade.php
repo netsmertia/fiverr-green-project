@@ -229,5 +229,8 @@
                 </div>
             </div>
         </div>
-    </section></div>
+    </section>
+</div>
+
+@include('partials._footer')
 @endsection

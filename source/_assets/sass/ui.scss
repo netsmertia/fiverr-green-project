@@ -1,0 +1,215 @@
+//size utilities
+.w-80p {
+    width: 80%;
+}
+
+//card
+.card {
+    box-shadow: 0 0 6px rgba(0, 0, 0, .16);
+    font-size: 18px;
+    font-weight: 300;
+    .card-body {
+        padding: 1.5rem 2.5rem;
+    }
+}
+.card.compact {
+    .card-body {
+        padding: 1rem;
+    }
+}
+.green-card {
+    display: flex;
+    align-items: center;
+    background: $green-light;
+    color: white;
+    border-radius: 10px;
+    padding: .75rem 1rem;
+    .icon {
+        padding-right: 1rem;
+    }
+    .content {
+
+    }
+}
+//flex
+.center-in-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-in-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+// typegraphy
+p {
+    font-weight: light;
+}
+.text-medium {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.pt120 {
+    font-size: (120/$font-base) + rem;
+    line-height: (120 * $lineheight-base) + rem;
+}
+
+.pt45 {
+    font-size: (45/$font-base) + rem;
+    line-height: (45 * $lineheight-base) + rem;
+}
+
+.pt40 {
+    font-size: (40/$font-base) + rem;
+    line-height: (40 * $lineheight-base) + rem;
+}
+.pt38 {
+    font-size: 1.52rem;
+    line-height: 2.1rem;
+}
+
+.pt35 {
+    font-size: 1.4rem;
+    line-height: 1.87rem;
+}
+
+.pt30 {
+    font-size: (30/$font-base) + rem;
+    line-height: (30 * $lineheight-base) + rem;
+}
+
+.pt28 {
+    font-size: (28/$font-base) + rem;
+    line-height: (28 * $lineheight-base) + rem;
+}
+.pt25 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.pt22 {
+    font-size: (22/$font-base) + rem;
+    line-height: (22 * $lineheight-base) + rem;
+}
+
+.pt20 {
+    font-size: (20/$font-base) + rem;
+    line-height: (20 * $lineheight-base) + rem;
+}
+
+.pt16 {
+    font-size: (16/$font-base) + rem;
+    line-height: (16 * $lineheight-base) + rem;
+}
+h2.heading {
+    font-size: 2.4rem; //38px
+    font-weight: bold;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.fw-light {
+    font-weight: 300;
+}
+
+.text-green-light {
+    color: $green-light;
+}
+strong {
+    font-weight: bold;
+}
+//others
+.border-0 {
+    border-radius: 0 !important;
+}
+.form-group-append {
+    .btn {
+        height: 38px;
+    }
+}
+input:focus {
+    outline: none;
+}
+.form-icon-start {
+    position: absolute;
+    top: 6px;
+    left: 12px;
+    z-index: 10;
+}
+.form-icon-start + input {
+    padding-left: 50px;
+}
+.object-fit-contain {
+    object-fit: contain;
+}
+ul.square {
+    padding-left: 0;
+    li {
+        list-style-type: none;
+        margin-bottom: 12px;
+        margin-left: 34px;
+        position: relative;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:before {
+            content: "\25A0";
+            font-family: "fontello";
+            display: inline;
+            font-size: 43px;
+            line-height: 0;
+            color: #3AA369;
+            position: absolute;
+            top: 13px;
+            left: -34px;
+        }
+    }
+}
+
+dl.square {
+    padding-left: 30px;
+    dt {
+        list-style-type: none;
+        margin-bottom: 12px;
+        margin-left: 34px;
+        margin-top: 2rem;
+        position: relative;
+        font-size: ((23+2)/$font-base) + rem;
+        line-height: ((23+2) * $lineheight-base) + rem;
+        font-weight: 300;
+        font-style: italic;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &:before {
+            content: "\25A0";
+            font-family: "fontello";
+            display: inline;
+            font-size: 43px;
+            line-height: 0;
+            color: #3AA369;
+            position: absolute;
+            top: 13px;
+            left: -34px;
+            font-style: normal;
+        }
+    }
+    dd {
+        padding-left: 34px;
+        font-size: ((20+2)/$font-base) + rem;
+        line-height: ((20+2) * $lineheight-base) + rem;
+        font-weight: 300;
+        strong {
+            font-size: ((20+3)/$font-base) + rem;
+            font-weight: bold;
+        }
+        &.bold {
+            font-weight: 500;
+        }
+    }
+}

@@ -26,8 +26,8 @@
                         <a class="dropdown-item {{ $page->selected('/supporter') }}" href="/supporter">SUPPORTERS</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">REPOSITORIO</a>
+                <li class="nav-item {{ $page->selected('/repository') }}">
+                    <a class="nav-link " href="/repository">REPOSITORIO</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">MI COMUNIDAD</a>
