@@ -99,7 +99,7 @@
     </section>
     <section class="section">
         <div class="content-wrapper sl4 ">
-            <div class="content spaced">
+            <div class="content extra spaced">
                 <div class="row align-items-center">
                     <div class="col-12">
                         <h2 class="heading mb-5">Las ventajas para un

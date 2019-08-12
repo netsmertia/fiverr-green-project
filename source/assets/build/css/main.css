@@ -251,7 +251,7 @@ dl.square dd.bold {
 }
 
 .content-wrapper {
-  padding: 140px 50px 100px 50px;
+  padding: 140px 50px 0px 50px;
   position: relative;
   min-height: inherit;
 }
@@ -323,23 +323,20 @@ footer .icons .icon {
   width: 500px;
 }
 
-.vs1 {
-  width: 60%;
-}
-.vs1 .section-content {
-  position: inherit;
-}
 .vs1 .vol-mobile1 {
-  width: 250px;
+  width: 300px;
   position: absolute;
   bottom: 0;
   left: 19%;
+  margin: auto;
+  display: block;
 }
 .vs1 .back-image {
   position: absolute;
   bottom: 0;
-  right: 0;
-  width: 670px;
+  right: -90px;
+  width: 680px;
+  height: unset;
 }
 
 .vs2 .icon-bullet {
@@ -370,6 +367,9 @@ footer .icons .icon {
   bottom: 0;
   left: 0;
   width: 450px;
+}
+.vs3__title {
+  width: 75%;
 }
 .vs3 .card {
   position: relative;
@@ -407,13 +407,16 @@ footer .icons .icon {
   width: 270px;
 }
 
-.vs7 {
+.vs7 .content-wrapper {
   padding-left: 0;
   padding-right: 0;
+  display: flex;
 }
-.vs7 .page-section {
+.vs7 .content {
   background: url("../../images/vol-image4c1.jpg") no-repeat center center;
   background-size: cover;
+  display: flex;
+  width: 100%;
 }
 
 .orgs1 .back-image {
@@ -538,7 +541,16 @@ footer .icons .icon {
   background-size: cover;
 }
 
+@media (min-width: 768px) {
+  .w-md-75 {
+    width: 75% !important;
+  }
+}
 @media (max-width: 991.98px) {
+  .content-wrapper {
+    padding-bottom: 100px;
+  }
+
   .dim-md {
     opacity: 0.4;
   }
@@ -556,15 +568,35 @@ footer .icons .icon {
     width: 380px;
   }
 
-  .sl4 .heading {
-    margin-bottom: 140px !important;
-    text-align: center;
-  }
   .sl4 .back-image {
-    width: 80%;
-    left: 50%;
+    width: 400px;
+  }
+
+  .vs1 .vol-mobile1 {
+    width: 260px;
     right: unset;
-    transform: translateX(-50%);
+    left: 17%;
+  }
+  .vs1 .back-image {
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    width: unset;
+    height: 80%;
+  }
+
+  .vs3 .back-image {
+    left: 40px;
+    width: 372px;
+  }
+
+  .vs4 .top {
+    margin-bottom: 5rem !important;
+  }
+  .vs4 .back-image {
+    width: 230px;
+    bottom: -60px;
+    right: 0px;
   }
 }
 @media (max-width: 767.98px) {
@@ -572,7 +604,86 @@ footer .icons .icon {
     opacity: 0.4;
   }
 
+  .sl4 .heading {
+    margin-bottom: 140px !important;
+    text-align: center;
+  }
   .sl4 .back-image {
     width: 300px;
+    left: 50%;
+    right: unset;
+    transform: translateX(-50%);
+  }
+
+  .vs1 .back-image {
+    display: none;
+  }
+  .vs1 .vol-mobile1 {
+    right: unset;
+    left: 30%;
+  }
+
+  .vs3__title {
+    width: 60%;
+  }
+  .vs3 .back-image {
+    left: -30px;
+    width: 340px;
+  }
+
+  .vs4 .top {
+    margin-bottom: 2rem !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .vs3__title {
+    width: 100%;
+  }
+  .vs3 .back-image {
+    width: 270px;
+    bottom: 18px;
+  }
+
+  .vs4 .back-image {
+    right: -17%;
+    bottom: 30px;
+  }
+}
+body:before {
+  content: "Large Desktop";
+  background: rgba(255, 0, 0, 0.5);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 6px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 5000;
+}
+
+@media (max-width: 479px) {
+  body:before {
+    content: "Small Phone (upto 480)";
+  }
+}
+@media (min-width: 480px) and (max-width: 575.98px) {
+  body:before {
+    content: "Phone (480 - 575)";
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body:before {
+    content: "Landscape Phone (576 - 767)";
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body:before {
+    content: "Tablets (768 - 991)";
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body:before {
+    content: "Desktop (992 - 1200)";
   }
 }

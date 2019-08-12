@@ -4,24 +4,28 @@
     @include('partials._header')
 <div class="container-fluids" id="pagepiling">
     <section class="section">
-        <div class="page-section vs1">
-            <div class="section-content">
-                <h2 class="heading">¡Encuentra las causas de tu interés!</h2>
-                <p class="text-medium">
-                    ¿Te requieren horas voluntarias y no sabes <br>
-                    dónde hacerlas?
-                </p>
-                <p class="fw-bold text-green-light">
-                    A TRAVÉS DE NEEDME, PODRÁS ENCONTRAR LOS EVENTOS COMUNITARIOS CON LAS CAUSAS DE TU INTERÉS. ESTO EVITARÁ CUALQUIER FRUSTRACIÓN CUANDO ESTÉS LISTO PARA DAR LA AYUDA QUE TANTO SE NECESITA. 
-                </p>
-                <img src="/assets/images/vol-mobile1.png" alt="" class="vol-mobile1">
-                <img src="/assets/images/vol-girl1.png" alt="" class="back-image">
+        <div class="content-wrapper vs1">
+            <div class="content spaced">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="heading">¡Encuentra las causas de tu interés!</h2>
+                        <p class="text-medium">
+                            ¿Te requieren horas voluntarias y no sabes <br>
+                            dónde hacerlas?
+                        </p>
+                        <p class="fw-bold text-green-light">
+                            A TRAVÉS DE NEEDME, PODRÁS ENCONTRAR LOS EVENTOS COMUNITARIOS CON LAS CAUSAS DE TU INTERÉS. ESTO EVITARÁ CUALQUIER FRUSTRACIÓN CUANDO ESTÉS LISTO PARA DAR LA AYUDA QUE TANTO SE NECESITA. 
+                        </p>
+                    </div>
+                </div>
             </div>
+            <img src="/assets/images/vol-mobile1.png" alt="" class="vol-mobile1">
+            <img src="/assets/images/vol-girl1.png" alt="" class="back-image">
         </div>
     </section>
     <section class="section">
-        <div class="page-section vs2">
-            <div class="section-content px-3">
+        <div class="content-wrapper vs2">
+            <div class="content px-3">
                 <div class="row">
                     <div class="card">
                         <div class="card-body">
@@ -34,7 +38,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center mt-2">
+                <div class="row align-items-center mt-4 mt-md-2">
                     <div class="col-6 col-md-4 ">
                         <h3 class="pt35 fw-bold">No hay nada más importante que tu seguridad. </h3>
                         <p class="pt25 mb-0">
@@ -42,10 +46,12 @@
                         </p>
                     </div>
                     <div class="col-6 col-md-3">
-                        <img src="/assets/images/vol-mobile2.png" alt="" class="w-100 h-auto">
+                        <div class="px-4 px-md-0">
+                            <img src="/assets/images/vol-mobile2.png" alt="" class="w-100 h-auto">
+                        </div>
                     </div>
                     <div class="col-12 col-md-5">
-                        <div class="row">
+                        <div class="row mt-5 mt-md-0">
                             <div class="col-6">
                                 <div class="icon-bullet">
                                     <div class="icon">
@@ -93,15 +99,15 @@
         </div>
     </section>
     <section class="section">
-        <div class="page-section vs3 h-100">
-            <div class="section-content px-3 h-100">
-                <div class="row h-100">
-                    <div class="col-4">
+        <div class="d-flex content-wrapper vs3">
+            <div class="d-flex content extra spaced">
+                <div class="row ">
+                    <div class="col-lg-4 text-center text-md-left">
                         <h2 class="heading">Queremos que seas eficiente con tu tiempo.</h2>
                         <p class="text-medium">Buscar eventos al comienzo puede ser entretenido, pero cuando el tiempo está limitado, debes decidir rápido por el evento que te motive y cumpla con tus intereses. </p>
                     </div>
-                    <div class="col-8 d-flex flex-column align-items-end">
-                        <p class="text-medium text-right w-75 mb-5">
+                    <div class="col-lg-8 d-flex flex-column align-items-end py-5 py-lg-0">
+                        <p class="text-medium text-right mb-5 vs3__title">
                             Hemos propuesto un diseño enfocado en las partes más importantes de un evento.
                         </p>
                         <div class="card compact mb-3 w-50">
@@ -123,10 +129,10 @@
         </div>
     </section>
     <section class="section">
-        <div class="page-section vs4 h-100">
-            <div class="section-content px-3 h-100">
-                <div class="row mb-4">
-                    <div class="col-7">
+        <div class="content-wrapper vs4 ">
+            <div class="content px-3 ">
+                <div class="row mb-4 top">
+                    <div class="col-lg-7">
                         <h2 class="heading">Ya has tenido mucha experiencia y te sientes listo para ser un líder comunitario.</h2>
                     </div>
                 </div>
@@ -135,11 +141,11 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="row">
-                                    <p class="medium-text mb-0 col-7">
+                                    <p class="medium-text mb-0 col-7 text-justify text-sm-left">
                                         NeedMe promoverá el liderazgo comunitario por parte del público. Cuando te sientas listo(a) para enfrentar el reto, podrás ofrecerte como supporter a otras OSFL   que te necesiten.
                                     </p>
                                 </div>
-                                <a href="#" class="btn btn-primary d-block mx-auto mt-3" style="width: 150px;">CONOCE MÁS</a>
+                                <a href="#" class="btn btn-primary d-block mr-auto mx-md-auto mt-3" style="width: 150px;">CONOCE MÁS</a>
                                 <img src="/assets/images/vol-mobile4.png" alt="" class="back-image h-auto">
                             </div>
                         </div>
@@ -149,11 +155,11 @@
         </div>
     </section>
     <section class="section">
-        <div class="page-section vs5 h-100">
-            <div class="section-content vs5 px-3 h-100">
+        <div class="content-wrapper vs5 ">
+            <div class="content vs5 px-3 ">
                 <div class="row">
-                    <div class="col-md-6 pr-4">
-                        <div class="card h-100">
+                    <div class="col-md-6 pr-md-4">
+                        <div class="card ">
                             <div class="card-img-top">
                                 <img src="/assets/images/vol-card-image-1.png" alt="" class="w-100 h-auto">
                             </div>
@@ -163,7 +169,7 @@
                             </div>
                         </div>            
                     </div>
-                    <div class="col-md-6 h-100 pl-4">
+                    <div class="col-md-6  pl-md-4 pt-5 pt-md-0">
                         <div class="card">
                             <div class="card-img-top">
                                 <img src="/assets/images/vol-card-image-2.png" alt="" class="w-100 h-auto">
@@ -179,8 +185,8 @@
         </div>
     </section>    
     <section class="section">
-        <div class="page-section vs6 h-100">
-            <div class="section-content vs5 px-3 h-100">
+        <div class="content-wrapper vs6 ">
+            <div class="content vs5 px-3 ">
                <div class="row">
                     <div class="col-md-6">
                         <h2 class="heading">¿Te preocupa quién puede ver tu perfil?</h2>
@@ -211,13 +217,13 @@
         </div>
     </section>
     <section class="section vs7">
-        <div class="page-section h-100">
-            <div class="section-content vs6 px-3 h-100">
-                <div class="row justify-content-center h-100">
+        <div class="content-wrapper ">
+            <div class="content vs6 px-3 ">
+                <div class="row justify-content-center ">
                     <div class="col-10 d-flex">
-                        <div class="card align-self-center" style="background: rgba(255, 255, 255, .85); margin-top: -11rem;">
+                        <div class="card align-self-center mt-0 mt-md-n5" style="background: rgba(255, 255, 255, .85)">
                             <div class="card-body">
-                                <ol class="pt20 mb-0 pl-0">
+                                <ol class="pt25 mb-0 pl-0">
                                     <li>El sistema de valoración es generado según la actividad de usuario en la aplicación y en los eventos. Más adelante se proveerá información al respecto.</li>
                                     <li>Voluntarios pueden aceptar o solicitar para roles de responsabilidad como coordinadores de evento o como líderes de equipo. Estos dos roles son categorizados en NeedMe como Supporters.</li>
                                     <li>Organizaciones sin fines de lucro.</li>
