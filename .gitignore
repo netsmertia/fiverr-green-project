@@ -7,8 +7,6 @@
 npm-debug.log
 yarn-error.log
 .DS_Store
-*.zip
-*.xd
 
 # Optional ignores
 # /build_staging/

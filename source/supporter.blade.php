@@ -5,8 +5,8 @@
 
 <div class="container-fluids" id="pagepiling">
     <section class="section">
-        <div class="page-section sups1 h-100">
-            <div class="section-content h-100">
+        <div class="content-wrapper sups1 ">
+            <div class="content">
                 <div class="row justify-content-center">
                     <div class="col-4 d-flex justify-content-center">
                         <img src="/assets/images/sup-image1.png" alt="" class="back-image">
@@ -22,9 +22,9 @@
         </div>
     </section>
     <section class="section">
-        <div class="page-section sups2 h-100">
-            <div class="section-content h-100">
-                <div class="row justify-content-center h-100">
+        <div class="content-wrapper sups2 ">
+            <div class="content ">
+                <div class="row justify-content-center ">
                     <div class="col-10 backimage">
                         <h2 class="heading mt-5 mb-3">¿Qué es un supporter?</h2>
                         <p class="text-medium">
@@ -36,10 +36,10 @@
         </div>
     </section>
     <section class="section">
-        <div class="page-section sups3 h-100">
-            <div class="section-content h-100">
+        <div class="content-wrapper sups3 ">
+            <div class="content ">
                 <h2 class="heading mb-5 text-center">¿Qué responsabilidades tiene un supporter?</h2>
-                <div class="row justify-content-center h-100">
+                <div class="row justify-content-center ">
                     <div class="col-md-5">
                         <div class="card compact">
                             <div class="row no-gutters">
@@ -83,8 +83,8 @@
         </div>
     </section>
     <section class="section">
-        <div class="page-section sups4 h-100">
-            <div class="section-content h-100">
+        <div class="content-wrapper sups4 ">
+            <div class="content ">
                 <div class="row">
                     <div class="col-md-8">
                         <h2 class="heading my-3">Aunque tienes experiencia, desconoces un tema en particular.</h2>
@@ -98,8 +98,8 @@
         </div>
     </section>
     <section class="section">
-        <div class="page-section sups5 h-100">
-            <div class="section-content h-100">
+        <div class="content-wrapper sups5 ">
+            <div class="content ">
                 <div class="row justify-content-center">
                     <div class="col-md-10 text-center">
                         <h2 class="heading my-3">¿Por qué ser un supporter?</h2>
@@ -111,8 +111,8 @@
         </div>
     </section>
     <section class="section px-0">
-        <div class="page-section sups6 h-100">
-            <div class="section-content h-100">
+        <div class="content-wrapper sups6 ">
+            <div class="content ">
                 <div class="row justify-content-center">
                     <div class="col-md-10 text-center">
                         <h2 class="pt40 fw-bold my-2">“Mucha gente pequeña, en lugares pequeños, haciendo cosas pequeñas, puede cambiar el mundo.”</h2>
@@ -125,8 +125,8 @@
         </div>
     </section>
     <section class="section">
-        <div class="page-section sups7 h-100">
-            <div class="section-content vs5 px-3 h-100">
+        <div class="content-wrapper sups7 ">
+            <div class="content vs5 px-3 ">
                <div class="row">
                     <div class="col-md-6">
                         <h2 class="heading">¿Te preocupa quién puede ver tu perfil?</h2>
@@ -157,9 +157,9 @@
         </div>
     </section>
     <section class="section sups8">
-        <div class="page-section h-100">
-            <div class="section-content px-3 h-100">
-                <div class="row justify-content-center h-100">
+        <div class="content-wrapper ">
+            <div class="content px-3 ">
+                <div class="row justify-content-center ">
                     <div class="col-10 d-flex justify-content-center">
                         <div class="card align-self-center" style="background: rgba(255, 255, 255, .85);">
                             <div class="card-body">

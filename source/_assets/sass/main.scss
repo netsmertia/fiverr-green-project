@@ -233,10 +233,7 @@ footer {
     .back-image {
         position: absolute;
         bottom: 0px;
-        right: 100px;
-    }
-    h2, p {
-        width: 45%;
+        right: 50px;
     }
 }
 .orgs2 {
@@ -284,9 +281,6 @@ footer {
         bottom: 0px;
         right: 50px;
     }
-    h2, p {
-        width: 45%;
-    }
 }
 
 .orgs6 {
@@ -305,7 +299,11 @@ footer {
     }
     .content-box {
         margin-top: 135px;
-        margin-left: 6%;
+        // margin-left: 6%;
+    }
+    img {
+        width: 115%;
+        margin-left: -20%;
     }
 }
 
@@ -319,11 +317,16 @@ footer {
 }
 
 .orgs10 {
-    padding-left: 0;
-    padding-right: 0;
-    .page-section {
+    .content-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+    }
+    .content {
         background: url('../../images/org-image15.jpg') no-repeat center center;
         background-size: cover;
+        display: flex;
+        width: 100%;
     }
 }
 

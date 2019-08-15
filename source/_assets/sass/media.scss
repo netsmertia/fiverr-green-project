@@ -7,7 +7,16 @@
         width: 75% !important;
     }
 }
-
+@include media-breakpoint-down(lg) {
+    .orgs3 {
+        .back-image {
+            right: 308px;
+        }
+        .back-image1 {
+            right: 60px;
+        }
+    }
+}
 //small and medium
 @include media-breakpoint-down(md) { 
     .content-wrapper {
@@ -69,7 +78,54 @@
             right: 0px;
         }
     }
+    .orgs1 {
+        .back-image {
+            right: 20px;
+            width: 370px;
+        }
+    }
+    .orgs3 {
+        .back-image {
+            right: 280px;
+            width: 170px;
+        }
+        .back-image1 {
+            right: 60px;
+            width: 170px;
+        }
+    }
 
+    .orgs4 {
+        .back-image {
+            right: -80px;
+        }
+    }
+    .orgs6 {
+        .back-image {
+            bottom: 70px;
+            left: 10px;
+        }
+    }
+
+    .orgs7 {
+        .content-box {
+            margin-top: 0;
+            margin-left: 0;
+        }
+        img {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 70px;
+        }
+    }
+
+    .orgs8 {
+        .back-image {
+            position: unset;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
 }
 
 //small & extra sm
@@ -119,6 +175,51 @@
             // bottom: -30px;
         }
     }
+
+    .orgs3 {
+        .back-image {
+            right: 100px;
+            width: 140px;
+        }
+        .back-image1 {
+            display: none;
+        }
+    }
+    .orgs4 {
+        .back-image {
+            display: block;
+            width: 90%;
+            margin: auto;
+            position: unset;
+        }
+    }
+    .orgs6 {
+        .back-image {
+            display: block;
+            position: unset;
+            width: 46%;
+            margin: auto;
+        }
+    }
+
+    .orgs7 {
+        .content-box {
+            text-align: center;
+        }
+        img {
+            width: 80%;
+            margin: 0 auto 30px auto;
+            display: block;
+            
+        }
+    }
+    .orgs8 {
+        .back-image {
+            margin-top: 30px;
+            width: 60%;
+            object-fit: contain;
+        }
+    }
 }
 
 // only extra sm
@@ -136,6 +237,20 @@
         .back-image {
             right: -17%;
             bottom: 30px;
+        }
+    }
+
+    .orgs3 {
+        .back-image {
+            right: 20px;
+            width: 140px;
+        }
+    }
+    .orgs8 {
+        .back-image {
+            margin-top: 30px;
+            width: 100%;
+            object-fit: contain;
         }
     }
 }

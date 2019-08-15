@@ -422,10 +422,7 @@ footer .icons .icon {
 .orgs1 .back-image {
   position: absolute;
   bottom: 0px;
-  right: 100px;
-}
-.orgs1 h2, .orgs1 p {
-  width: 45%;
+  right: 50px;
 }
 
 .orgs2 .card-body {
@@ -469,9 +466,6 @@ footer .icons .icon {
   bottom: 0px;
   right: 50px;
 }
-.orgs4 h2, .orgs4 p {
-  width: 45%;
-}
 
 .orgs6 .back-image {
   position: absolute;
@@ -486,7 +480,10 @@ footer .icons .icon {
 }
 .orgs7 .content-box {
   margin-top: 135px;
-  margin-left: 6%;
+}
+.orgs7 img {
+  width: 115%;
+  margin-left: -20%;
 }
 
 .orgs8 .back-image {
@@ -496,13 +493,16 @@ footer .icons .icon {
   width: 410px;
 }
 
-.orgs10 {
+.orgs10 .content-wrapper {
   padding-left: 0;
   padding-right: 0;
+  display: flex;
 }
-.orgs10 .page-section {
+.orgs10 .content {
   background: url("../../images/org-image15.jpg") no-repeat center center;
   background-size: cover;
+  display: flex;
+  width: 100%;
 }
 
 .sups1 .back-image {
@@ -544,6 +544,14 @@ footer .icons .icon {
 @media (min-width: 768px) {
   .w-md-75 {
     width: 75% !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  .orgs3 .back-image {
+    right: 308px;
+  }
+  .orgs3 .back-image1 {
+    right: 60px;
   }
 }
 @media (max-width: 991.98px) {
@@ -598,6 +606,46 @@ footer .icons .icon {
     bottom: -60px;
     right: 0px;
   }
+
+  .orgs1 .back-image {
+    right: 20px;
+    width: 370px;
+  }
+
+  .orgs3 .back-image {
+    right: 280px;
+    width: 170px;
+  }
+  .orgs3 .back-image1 {
+    right: 60px;
+    width: 170px;
+  }
+
+  .orgs4 .back-image {
+    right: -80px;
+  }
+
+  .orgs6 .back-image {
+    bottom: 70px;
+    left: 10px;
+  }
+
+  .orgs7 .content-box {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .orgs7 img {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+
+  .orgs8 .back-image {
+    position: unset;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 @media (max-width: 767.98px) {
   .dim-sm {
@@ -634,6 +682,43 @@ footer .icons .icon {
   .vs4 .top {
     margin-bottom: 2rem !important;
   }
+  .orgs3 .back-image {
+    right: 100px;
+    width: 140px;
+  }
+  .orgs3 .back-image1 {
+    display: none;
+  }
+
+  .orgs4 .back-image {
+    display: block;
+    width: 90%;
+    margin: auto;
+    position: unset;
+  }
+
+  .orgs6 .back-image {
+    display: block;
+    position: unset;
+    width: 46%;
+    margin: auto;
+  }
+
+  .orgs7 .content-box {
+    text-align: center;
+  }
+  .orgs7 img {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    display: block;
+  }
+
+  .orgs8 .back-image {
+    margin-top: 30px;
+    width: 60%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 @media (max-width: 575.98px) {
   .vs3__title {
@@ -647,6 +732,18 @@ footer .icons .icon {
   .vs4 .back-image {
     right: -17%;
     bottom: 30px;
+  }
+
+  .orgs3 .back-image {
+    right: 20px;
+    width: 140px;
+  }
+
+  .orgs8 .back-image {
+    margin-top: 30px;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 body:before {
