@@ -220,12 +220,15 @@ footer {
         padding-left: 0;
         padding-right: 0;
         display: flex;
+        padding-bottom: 0;
     }
     .content {
         background: url('../../images/vol-image4c1.jpg') no-repeat center center;
         background-size: cover;
         display: flex;
         width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
@@ -327,6 +330,8 @@ footer {
         background-size: cover;
         display: flex;
         width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
@@ -337,19 +342,21 @@ footer {
     }
 }
 .sups2 {
-    .backimage {
-        padding-right: 300px;
-        background: url('../../images/sup-image2c.png') no-repeat bottom right;
-        background-size: contain;
+    .back-image {
+        width: auto;
+        height: 80%;
+        position: absolute;
+        right: 9%;
+        bottom: 0;
     }
 }
 
 .sups4 {
     .back-image {
         width: auto;
-        height: 520px;
+        height: 72%;
         position: absolute;
-        right: 0;
+        right: 60px;
         bottom: 0;
     }
 }
@@ -367,9 +374,18 @@ footer {
 .sups8 {
     padding-left: 0;
     padding-right: 0;
-    .page-section {
+    .content-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+    }
+    .content {
         background: url('../../images/sup-image8c.jpg') no-repeat bottom center;
         background-size: cover;
+        display: flex;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 

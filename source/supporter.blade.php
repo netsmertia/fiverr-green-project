@@ -8,10 +8,10 @@
         <div class="content-wrapper sups1 ">
             <div class="content">
                 <div class="row justify-content-center">
-                    <div class="col-4 d-flex justify-content-center">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <img src="/assets/images/sup-image1.png" alt="" class="back-image">
                     </div>
-                    <div class="col-6 center-in-column">
+                    <div class="col-md-6 center-in-column text-center text-md-left">
                         <h2 class="heading my-3">uno de los procesos más difíciles es conseguir ayuda. </h2>
                         <p class="text-medium">
                             no porque no haya personas dispuestas para ayudar, sino porque en ocasiones no nos atrevemos a preguntar o le preguntamos a las personas con tiempo limitado. needme será la plataforma para osfl y compañías con responsabilidad social que les permitirá buscar o dirigir ayuda para las diferentes causas benéficas.
@@ -24,15 +24,16 @@
     <section class="section">
         <div class="content-wrapper sups2 ">
             <div class="content ">
-                <div class="row justify-content-center ">
-                    <div class="col-10 backimage">
-                        <h2 class="heading mt-5 mb-3">¿Qué es un supporter?</h2>
+                <div class="row text-center text-md-left">
+                    <div class="col-md-7 offset-lg-1 pt-md-5">
+                        <h2 class="heading mt-md-5 mb-3">¿Qué es un supporter?</h2>
                         <p class="text-medium">
                             Según su funcionalidad en la aplicación NeedMe, un supporter es un voluntario que cuenta con experiencia coordinando eventos o liderando equipos. En otras palabras, son las personas que planifican y corren los eventos en representación de una organización. Por otro lado, si la organización cuenta con miembros disponibles, estos podrían ser los supporters en la aplicación y ser asignados como responsables de los eventos.
                         </p>
                     </div>
                 </div>
             </div>
+            <img src="/assets/images/sup-image2c.png" alt="" class="back-image">
         </div>
     </section>
     <section class="section">
@@ -40,7 +41,7 @@
             <div class="content ">
                 <h2 class="heading mb-5 text-center">¿Qué responsabilidades tiene un supporter?</h2>
                 <div class="row justify-content-center ">
-                    <div class="col-md-5">
+                    <div class="col-md-6 col-lg-5 px-5 px-md-0">
                         <div class="card compact">
                             <div class="row no-gutters">
                                 <div class="col-3 p-2 center-in-row">
@@ -73,7 +74,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-5 mt-md-0">
                         <p class="text-medium px-3">
                             Si un evento es muy grande como para ser monitoreado y controlado por dos supporters, estos pueden reclutar personal (staff ) desde la aplicación y durante la publicación del evento. En otras palabras, también serán responsables de evaluar al equipo que acepten como personal (staff) para el evento. Por otro lado, si un evento es pequeño y no requiere de muchos voluntarios, quizás sea suficiente con un supporter (sea coordinador de evento o líder de grupo). Esto depende de la experiencia que tenga el supporter y su control del evento.
                         </p>
@@ -84,16 +85,16 @@
     </section>
     <section class="section">
         <div class="content-wrapper sups4 ">
-            <div class="content ">
-                <div class="row">
-                    <div class="col-md-8">
+            <img src="/assets/images/sup-image6.png" alt="" class="back-image">
+            <div class="content">
+                <div class="row text-center text-md-left">
+                    <div class="col-md-7 col-lg-8">
                         <h2 class="heading my-3">Aunque tienes experiencia, desconoces un tema en particular.</h2>
                         <p class="text-medium">Nuestra plataforma needme.today le proveerá a todo los usuarios acceso a nuestro repositorio de proyectos comunitarios. Esta librería virtual servirá de referencia para cualquier persona que quiera ayudar a la comunidad, pero no sepa por dónde comenzar. </p>
                         <p class="text-medium"> Los proyectos son eventos de NeedMe con más detalles provistos por los coordinadores. Suscríbase con nosotros para que se entere cuando esta funcionalidad estará disponible.</p>
-                        <a href="#" class="btn btn-primary">CONOCE MÁS</a>
+                        <a href="#" class="btn btn-primary mt-4">CONOCE MÁS</a>
                     </div>
                 </div>
-                <img src="/assets/images/sup-image6.png" alt="" class="back-image">
             </div>
         </div>
     </section>
@@ -159,19 +160,13 @@
     <section class="section sups8">
         <div class="content-wrapper ">
             <div class="content px-3 ">
-                <div class="row justify-content-center ">
+                <div class="row justify-content-center w-100">
                     <div class="col-10 d-flex justify-content-center">
                         <div class="card align-self-center" style="background: rgba(255, 255, 255, .85);">
                             <div class="card-body">
                                 <ol class="pt25 mb-0 pl-0">
-                                    <li>Organización sin fines de lucro.</li>
-                                    <li>Las causas consideradas en NeedMe son: agricultura, ambiente, animal, ciencia y tecnología, cultura, desarrollo económico, educación, niños, pobreza, religión, salud y servicio social.</li>
-                                    <li>Cantidad de eventos mensuales limitados dependiendo de la membresía seleccionada.</li>
                                     <li>En NeedMe los colaboradores son llamados Supporters. Para más información visitar este enlace.</li>
-                                    <li>Más adelante se estará proveyendo más información al respecto.</li>
-                                    <li>El usuario no necesitará de una cuenta de NeedMe para poder utilizar este servicio.</li>
-                                    <li>Solo los estudiantes que cumplan con una cantidad de horas comunitarias a través de NeedMe, podrán solicitar a la cartera de becas de <strong>Block S for Humanity</strong>. <a href="#">Enlace</a>.</li>
-                                    <li>No se establece el por ciento destinado para el desarrollo de proyectos (I+D) o para el fondo de emergencia, debido a que, si se administra correctamente, no siempre será necesario acumular tanto dinero en los fondos de emergencia. Esto permitiría que se dirijan más fondos para el desarrollo de otros proyectos tecnológicos de impacto social.</li>
+                                    <li>Más adelante se notificará cuando esta funcionalidad esté disponible.</li>
                                 </ol>
                             </div>
                         </div>

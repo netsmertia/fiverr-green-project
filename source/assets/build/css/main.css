@@ -3,6 +3,14 @@
   width: 80%;
 }
 
+.mb-150 {
+  margin-bottom: 150px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 .card {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
   font-size: 18px;
@@ -150,6 +158,11 @@ input:focus {
 .object-fit-contain {
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.object-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 ul.square {
@@ -411,12 +424,15 @@ footer .icons .icon {
   padding-left: 0;
   padding-right: 0;
   display: flex;
+  padding-bottom: 0;
 }
 .vs7 .content {
   background: url("../../images/vol-image4c1.jpg") no-repeat center center;
   background-size: cover;
   display: flex;
   width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .orgs1 .back-image {
@@ -503,6 +519,8 @@ footer .icons .icon {
   background-size: cover;
   display: flex;
   width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .sups1 .back-image {
@@ -510,17 +528,19 @@ footer .icons .icon {
   height: 450px;
 }
 
-.sups2 .backimage {
-  padding-right: 300px;
-  background: url("../../images/sup-image2c.png") no-repeat bottom right;
-  background-size: contain;
+.sups2 .back-image {
+  width: auto;
+  height: 80%;
+  position: absolute;
+  right: 9%;
+  bottom: 0;
 }
 
 .sups4 .back-image {
   width: auto;
-  height: 520px;
+  height: 72%;
   position: absolute;
-  right: 0;
+  right: 60px;
   bottom: 0;
 }
 
@@ -536,9 +556,18 @@ footer .icons .icon {
   padding-left: 0;
   padding-right: 0;
 }
-.sups8 .page-section {
+.sups8 .content-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+}
+.sups8 .content {
   background: url("../../images/sup-image8c.jpg") no-repeat bottom center;
   background-size: cover;
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (min-width: 768px) {
@@ -555,8 +584,26 @@ footer .icons .icon {
   }
 }
 @media (max-width: 991.98px) {
+  .content.spaced {
+    padding-top: 30px;
+  }
+  .content.spaced.extra {
+    padding-top: 0px;
+  }
+
+  .section:not(.full-height) {
+    min-height: unset;
+  }
+  .section:not(.full-height) .content-wrapper {
+    min-height: unset;
+  }
+  .section:first-child {
+    padding-top: 100px;
+  }
+
   .content-wrapper {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .dim-md {
@@ -646,6 +693,30 @@ footer .icons .icon {
     -o-object-fit: contain;
        object-fit: contain;
   }
+
+  .orgs10 .content-wrapper {
+    padding-bottom: 0px;
+  }
+
+  .sups2 .back-image {
+    height: 50%;
+    right: 9%;
+    top: 200px;
+    bottom: unset;
+  }
+
+  .sups4 .back-image {
+    height: 50%;
+    right: 30px;
+    top: 220px;
+    bottom: unset;
+  }
+
+  .sups6 .back-image {
+    position: unset;
+    margin: 0 -7.5%;
+    width: 115%;
+  }
 }
 @media (max-width: 767.98px) {
   .dim-sm {
@@ -718,6 +789,26 @@ footer .icons .icon {
     width: 60%;
     -o-object-fit: contain;
        object-fit: contain;
+  }
+
+  .sups2 .back-image {
+    width: 250px;
+    margin: 30px auto 0 auto;
+    position: unset;
+    display: block;
+    height: unset;
+  }
+
+  .sups4 .back-image {
+    position: unset;
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+
+  .sups6 .back-image {
+    margin: 0 -15%;
+    width: 130%;
   }
 }
 @media (max-width: 575.98px) {
