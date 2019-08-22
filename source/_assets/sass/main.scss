@@ -21,7 +21,7 @@ body {
     .nav-item {
         padding-left: 1.4rem;
         padding-right: 1.4rem;
-        
+        border-bottom: 2px solid transparent;
     }
     .nav-item.active, .nav-item:hover {
         .nav-link {
@@ -66,7 +66,12 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 1030;
-    .icons {
+    .lang-link {
+        a:not(.active) {
+            opacity: .5;
+        }
+    }
+    .icons, .lang-link {
         padding: .5rem;
         background: rgba(255, 255, 255, .8);
         .icon {
@@ -390,7 +395,36 @@ footer {
     }
 }
 
+.comm .content-wrapper{
 
-
+    &:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: url('../../images/org-image13c.png') no-repeat;
+        background-position: left top;
+        background-size: 65%;
+        position: absolute;
+        opacity: .3;
+        left: 8%;
+        top: 17%;
+        
+    }
+    
+}
+#forward {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    z-index: 999;
+}
+#backward {
+    position: absolute;
+    left: 50%;
+    transform: rotate(180deg) translateX(50%);
+    bottom: 40px;
+    z-index: 999;
+}
 @import './media.scss';
-@import './helper.scss';
+// @import './helper.scss';

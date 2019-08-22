@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light primary-nav fixed-top">
+    <a href="#" id="forward" style="display:none;">
+        <img src="/assets/images/arrowc.png">
+    </a>
     <div class="container-fluid">
-
-
         <a class="navbar-brand" href="#">
             <img src="/assets/images/logo.png" alt="" style="width:auto; height: 72px;">
         </a>
@@ -29,8 +30,8 @@
                 <li class="nav-item {{ $page->selected('/repository') }}">
                     <a class="nav-link " href="/repository">REPOSITORIO</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MI COMUNIDAD</a>
+                <li class="nav-item {{ $page->selected('/community') }}">
+                    <a class="nav-link" href="/community">MI COMUNIDAD</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">SOBRE NEEDME</a>

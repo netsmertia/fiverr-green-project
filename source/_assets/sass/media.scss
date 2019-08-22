@@ -19,8 +19,18 @@
 }
 //small and medium
 @include media-breakpoint-down(md) { 
+    #forward, #backward {
+        display: none;
+    }
+    .primary-nav {
+        .navbar-collapse.collapse {
+            background: white;
+            border: 1px solid rgba(0, 0, 0, .1);
+            padding: 30px 10px;
+            margin-top: 10px;
+        }
+    }
     .content {
-
         &.spaced {
             padding-top: 30px;
             &.extra {
@@ -178,6 +188,14 @@
             margin: 0 -7.5%;
             width: 115%;
         }
+    }
+    .comm .content-wrapper:before {
+        background-position: center center;
+        background-size: 80%;
+        position: absolute;
+        opacity: 0.3;
+        left: 0;
+        top: 5%;
     }
 }
 

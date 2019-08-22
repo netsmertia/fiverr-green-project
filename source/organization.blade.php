@@ -57,7 +57,7 @@
     </section>
     <section class="section">
         <div class="content-wrapper orgs3 ">
-            <div class="content ">
+            <div class="content spaced">
                 <div class="row mb-5 mb-lg-0">
                     <div class="col-12 col-lg-5">
                         <h2 class="heading text-center text-lg-left my-3">Dé a conocer el impacto que tiene su organización. </h2>

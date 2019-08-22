@@ -17805,6 +17805,14 @@ try {
 } catch (e) {}
 
 $(document).ready(function () {
+  var sections = $('#pagepiling .section').length;
+  $('#forward').on('click', function () {
+    $.fn.pagepiling.moveSectionUp();
+  });
+  $('#backward').on('click', function () {
+    $.fn.pagepiling.moveSectionDown();
+  });
+
   if (window && window.innerWidth > 992) {
     console.log("pagepiling");
     $('#pagepiling').pagepiling({
@@ -17832,7 +17840,24 @@ $(document).ready(function () {
       animateAnchor: false,
       //events
       onLeave: function onLeave(index, nextIndex, direction) {},
-      afterLoad: function afterLoad(anchorLink, index) {},
+      afterLoad: function afterLoad(anchorLink, index) {
+        console.log(index);
+
+        if (index == 1) {
+          $('#forward').hide();
+        } else {
+          $('#forward').show();
+        }
+
+        console.log(index);
+        console.log(sections);
+
+        if (index == sections) {
+          $('#backward').hide();
+        } else {
+          $('#backward').show();
+        }
+      },
       afterRender: function afterRender() {}
     });
   }
