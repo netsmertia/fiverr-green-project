@@ -60,7 +60,8 @@
     .sl1 {
         .back-image {
             right: 0px;
-            width: 380px;
+            width: unset;
+            height: 50vh;
         }
     }
     .sl4 {
@@ -293,7 +294,7 @@
     }
     .sups6 {
         .back-image {
-            margin: 0 -15%;
+            margin: 50px -15% 0px;
             width: 130%;
         }
     }

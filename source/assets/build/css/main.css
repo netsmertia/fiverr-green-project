@@ -560,6 +560,7 @@ footer .icons .icon {
   padding-left: 0;
   padding-right: 0;
   display: flex;
+  padding-bottom: 0;
 }
 .sups8 .content {
   background: url("../../images/sup-image8c.jpg") no-repeat bottom center;
@@ -620,7 +621,8 @@ footer .icons .icon {
 
   .sl1 .back-image {
     right: 0px;
-    width: 380px;
+    width: unset;
+    height: 50vh;
   }
 
   .sl4 .back-image {
@@ -807,7 +809,7 @@ footer .icons .icon {
   }
 
   .sups6 .back-image {
-    margin: 0 -15%;
+    margin: 50px -15% 0px;
     width: 130%;
   }
 }
